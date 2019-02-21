@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TWITTER</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <h1 id="twitter">Twitter</h1>
+    <main id="fundo" >
+        <textarea id="area-de-texto" onkeyup="caracteres()" type="text" value='tweet' placeholder="What's Happening?"></textarea>
+        <section class="tweetSpace">
+            <p></p>
+        </section>
+       
+    </main>
+    <div class="la">
+        <input id="btnEnvia" type="button" value="Tweetar" disabled="true" name="Tweetar" > <br>
+        <div id="restante"></div><span id="contador">140</span>
+    </div>
+    <script src="app.js"></script>
+    <script src="moment.js"></script>
+</body>
+
+</html>

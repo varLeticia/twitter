@@ -1,0 +1,63 @@
+#twitter {
+    text-align: center;
+    color: white;
+    background-color: rgb(4, 177, 230);
+    height: 80px;
+    padding-top: 50px;
+    padding-right: 45px;
+    margin: 0px;
+}
+ #area-de-texto{
+    margin-left: 150px;
+    margin-right: 120px;
+    height: 190px;
+    width: 400px;
+}
+#btnEnvia{
+    height: 40px;
+    background-color: rgb(4, 177, 230);
+    color: white;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-right: 10px;
+}
+#img {
+    width: 600px;
+    margin-left: 250px;
+    margin-right: 50px;
+}
+.la{
+    display: flex;
+}
+.tweetSpace{
+    margin-left: 100px;
+    margin-right: 10px;
+    height: 190px;
+    width: 400px;
+    margin-top: 4px;
+    background-color: rgb(161, 241, 234);
+    display: flex; 
+    flex-direction: column-reverse; 
+}
+.tweetSpace div {
+    word-wrap: break-word;
+}
+#contador{
+   padding-left: 30px;
+   padding-top: 15px;
+   padding-right: 30px;
+   margin-left: 100px;
+   text-align: center;
+   background-color: rgb(127, 255, 238);
+   width: 50PX;
+   font-size: 20px
+}
+#fundo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+body{
+    background-image: url('http://1.bp.blogspot.com/-lDfVS__8AuA/TbmZQXKChEI/AAAAAAAAA04/y58G9K9Y-9o/s1600/papel+de+parede+para+twitter.jpg')
+}
